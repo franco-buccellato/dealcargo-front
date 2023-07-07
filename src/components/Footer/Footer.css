@@ -56,7 +56,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 233, 37, 0.92);
+    background: #a12c34;
     box-shadow: 7px 10px 12px #E5E5E5;
     border-radius: 0 45px 45px 0;
     width: 100%;
@@ -164,7 +164,7 @@ input[type="submit"] {
     display: flex;
     justify-content: center;
     margin: 0 100px;
-    background: #FFE925;
+    background: #a12c34;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     font-family: 'DM Sans';
@@ -188,8 +188,8 @@ input[type="submit"]:hover {
 .input-field input[type=tel]:focus,
 .input-field input[type=email]:focus,
 .input-field textarea:focus {
-    border-bottom: 1px solid #FFE925;
-    box-shadow: 0 1px 0 0 #FFE925;
+    border-bottom: 1px solid #a12c34;
+    box-shadow: 0 1px 0 0 #a12c34;
 }
 
 @media only screen and (max-width: 1000px) {

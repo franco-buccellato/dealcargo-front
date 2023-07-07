@@ -5,7 +5,8 @@
     top: 0;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-image: url("../../imagenes/Fondo.webp");
+    /* background-image: url("../../imagenes/Fondo.webp"); */
+    background-image: url("../../imagenes/FondosDeal.png");
     background-position: center top;
     background-size: 100%;
     z-index: 0;
@@ -52,8 +53,8 @@
     width: 25%;
     margin-left: 37.5%;
     margin-top: 30px;
-    background-color: #FFE925;
-    border: 3px solid #FFE925;
+    background-color: #a12c34;
+    border: 3px solid #a12c34;
     border-radius: 5px;
     z-index: 10000;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);

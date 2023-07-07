@@ -1,5 +1,5 @@
 import './SectionClientes.css'; 
-import iconoClientes from '../../imagenes/escudo-clientes.webp'
+import iconoClientes from '../../imagenes/dealcargo-isologotipo - copia.png'
 import CarrouselClientes from '../CarrouselClientes/CarrouselClientes';
 import iconoExperiencias from '../../imagenes/experiencias-icono.webp'
 import { getTextosClientes } from '../repositorioClientes';
