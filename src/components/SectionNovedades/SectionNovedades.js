@@ -10,31 +10,15 @@ import {getIdPublicaciones} from '../repositorioNovedadesPublicaciones';
 
 const SectionNovedades = () => {
 
-/*     const listIdVideos = getIdVideos(); */
     const listaIdPublicaciones = getIdPublicaciones();
-/* 
-    const [indiceVideo, setIndiceVideo] = useState(0); */
-    const [indicePublicacion, setIndicePublicacion] = useState(0);
 
-/*     useEffect(
-        () => {
-        },
-        [indiceVideo]
-    ) */
+    const [indicePublicacion, setIndicePublicacion] = useState(0);
 
     useEffect(
         () => {
         },
         [indicePublicacion]
     )
-/* 
-    const prevVideo = () => {
-        indiceVideo >= 1 ? setIndiceVideo(indiceVideo - 1) : console.log('Primer video.');
-    }
-
-    const nextVideo = () => {
-        indiceVideo < listIdVideos.length - 1 ? setIndiceVideo(indiceVideo + 1) : console.log("Último video.");
-    } */
     const prevPublicacion = () => {
         indicePublicacion >= 1 ? setIndicePublicacion(indicePublicacion - 1) : console.log('Primer publicacion.');
     }
@@ -49,7 +33,7 @@ const SectionNovedades = () => {
                 <div className='container-novedades'>
                     <div className='novedades-title'>
                         <span className='novedades-titulo'>Novedades</span>
-                        <span className='novedades-subtitulo'>¡Enterate de todas las noticias dentro de la #ExperienciaMECA! </span>
+                        <span className='novedades-subtitulo'>¡Enterate de todas las noticias dentro de la #DEALTips! </span>
                     </div>
                     <div className='arrow-back-video'  onClick={prevPublicacion}>
                         <div className='arrow-back-video-icono'>
@@ -58,7 +42,6 @@ const SectionNovedades = () => {
                     </div>
                     <div className='novedades-videos'>
                         <div className='novedades-video'>
-                            {/* <YoutubeEmbed embedId={listIdVideos[indiceVideo].idVideo} /> */}
                             <LinkedinEmbebed embedId={listaIdPublicaciones[indicePublicacion].idPublicacion} />
                         </div>
                     </div>

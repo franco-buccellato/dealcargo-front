@@ -1,11 +1,8 @@
 import './SectionNosotros.css'; 
-/* import FotoDuenios from '../../imagenes/eugenio-dario.webp'; */
-import FotoDuenios from '../../imagenes/dario-eugenio-2023.png';
-//import FotoStaff from '../../imagenes/STAFF4.webp';
+import FotoRepresentantes from '../../imagenes/representantes.png';
 import FotoStaff from '../../imagenes/foto-meca-aniversario.jpg';
 import LogoStaff from '../../imagenes/icono-staff.webp';
 import LogoObjetivo from '../../imagenes/icono-objetivo.webp';
-import LogoProgreso from '../../imagenes/icono-progreso.webp';
 import {getTextNosotros} from '../repositorioNosotros';
 
 function SectionNosotros() {
@@ -15,12 +12,12 @@ function SectionNosotros() {
     return (
         <div className="container-section-nosotros" id='section-nosotros'>
             <div className='container-nosotros-title'>
-                <h4>{textosPaginaNosotros.titulo}</h4>
+                <h2>{textosPaginaNosotros.titulo}</h2>
             </div>
             <div className="container-nosotros-border">
                 <div className='container-nosotros-1'>
                     <div className='nosotros-1-duenios'>
-                        <img alt='Foto-duenios' src={FotoDuenios}></img>
+                        <img alt='Foto-duenios' src={FotoRepresentantes}></img>
                     </div>
                     <div className='nosotros-1-detalles'>
                         <span><b>{textosPaginaNosotros.subTitulo}</b></span>
@@ -47,7 +44,7 @@ function SectionNosotros() {
                                 <span>{textosPaginaNosotros.detalle2}</span>
                             </div>
                         </div>
-                        <div className='nosotros-2-items-3'>
+{/*                         <div className='nosotros-2-items-3'>
                             <div className='nosotros-2-items-3-logo'>
                                 <img alt='logo-progreso' src={LogoProgreso}></img>
                                 <span><b>{textosPaginaNosotros.titulo3}</b></span>
@@ -55,14 +52,14 @@ function SectionNosotros() {
                             <div className='nosotros-2-items-3-detalle'>
                                 <span>{textosPaginaNosotros.detalle3}</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className='nosotros-2-staff'>
                         <img alt='Foto-staff' src={FotoStaff}></img>
                     </div>
                 </div>
                 <div className='container-nosotros-conocenos'>
-                    <a href="https://www.linkedin.com/company/meca-electromec%C3%A1nica-s-a/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/company/deal-cargo/" target="_blank" rel="noreferrer">
                         <div className="buttom-conocenos">
                             <h3>¡Conócenos!</h3>
                         </div>

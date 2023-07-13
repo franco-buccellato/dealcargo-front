@@ -18,12 +18,34 @@ const Maps = () => {
                 <div className="container-colum">
                     <div className="row">
                         <div className="col s12 boxInfo">
-                            <div>
+                            <div className='icono-boxInfo'>
                                 <ion-icon name="location-outline"></ion-icon>
                             </div>
                             <div>
                                 <p><b>Dirección de Administración:</b></p>
                                 <p>Miranda 4231, C1407, C.A.B.A. Argentina.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col s12 boxInfo">
+                            <div className='icono-boxInfo'>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <div>
+                                <p><b>Teléfono:</b></p>
+                                <p>+54 911 34857071</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col s12 boxInfo">
+                            <div className='icono-boxInfo'>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div>
+                                <p><b>Email:</b></p>
+                                <p>comex@dealcargo.com.ar</p>
                             </div>
                         </div>
                     </div>

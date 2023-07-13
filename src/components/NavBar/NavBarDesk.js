@@ -1,8 +1,8 @@
 import './NavBarDesk.css';
 import {Link} from 'react-router-dom';
 /* import logoIsologo from '../../imagenes/meca-logo-isologo-small-min.webp'; */
-import logoIsologo from '../../imagenes/dealcargo-isologotipo.png';
-import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
+import isologo from '../../imagenes/isologotipo1.png';
+import isotipo from '../../imagenes/isotipo.png';
 import argentina from '../../imagenes/argentina.png';
 import chile from '../../imagenes/chile.png';
 
@@ -16,16 +16,19 @@ function NavBarDesk({estaEnSupPage}) {
                 document.getElementById('navBar').style.height = '135px';
                 document.getElementById('navBar').style.paddingBottom = '0';
                 document.getElementById('navBar').style.borderRadius = '0'
-                document.getElementById('logo-navBar').src = logoIsologo;
+                document.getElementById('logo-navBar').src = isologo;
                 document.getElementById('logo-navBar').style.marginBottom = '0';
+                document.getElementById('logo-navBar').style.width = '70%';
             } else {
                 document.getElementById('navBar').style.background = '#ffffffea';
                 document.getElementById('navBar').style.height = '80px';
                 document.getElementById('navBar').style.paddingBottom = '20px';
                 document.getElementById('navBar').style.borderBottomLeftRadius = '30px';
                 document.getElementById('navBar').style.borderBottomRightRadius = '30px';
-                document.getElementById('logo-navBar').src = logoMecaTexto;
-                document.getElementById('logo-navBar').style.marginBottom = '-35px';
+                document.getElementById('logo-navBar').src = isotipo;
+                document.getElementById('logo-navBar').style.width = '50%';
+                /* document.getElementById('logo-navBar').style.marginBottom = ''; */
+                /* document.getElementById('logo-navBar').style.height = '35px'; */
             }
         }
     }
@@ -39,7 +42,7 @@ function NavBarDesk({estaEnSupPage}) {
                 <nav className="navigation" id='navBar'>
                         <div className='container-logo-marca' id='logo-nav-bar'>
                             <Link to = {'/'}>
-                                <img id='logo-navBar' className='logo-pagina' alt='Logo' src={logoIsologo}></img>
+                                <img id='logo-navBar' className='logo-pagina' alt='Logo' src={isologo}></img>
                             </Link>
                         </div>
                         <ul className='navbar-style'>
@@ -91,7 +94,7 @@ function NavBarDesk({estaEnSupPage}) {
             <nav className="navigation" id='navBar'>
                     <div className='container-logo-marca' id='logo-nav-bar'>
                         <a href='#top-landig-page'>
-                            <img id='logo-navBar' className='logo-pagina' alt='Logo' src={logoIsologo}></img>
+                            <img id='logo-navBar' className='logo-pagina' alt='Logo' src={isologo}></img>
                         </a>
                     </div>
                     <ul className='navbar-style'>

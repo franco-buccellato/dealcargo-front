@@ -8,7 +8,7 @@
 }
 
 .section-servicos-tittle {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     letter-spacing: 2px;
     padding-bottom: 30px;
@@ -24,21 +24,21 @@
     z-index: 1;
 }
 
-.container-section-servicios-tablero {
+.container-section-servicios-2 {
     display: flex;
     width: 80%;
     margin: 0 10%;
     z-index: 1;
 }
 
-.container-section-servicios-mas {
+.container-section-servicios-3 {
     display: flex;
     width: 80%;
     margin: 0 10%;
     z-index: 1;
 }
 
-.container-section-servicios-montaje {
+.container-section-servicios-1 {
     display: flex;
     justify-content:center;
     width: 80%;
@@ -46,7 +46,7 @@
     z-index: 1;
 }
 
-.card-tablero, .card-montaje, .card-mas {
+.card-1, .card-2, .card-3 {
     display: flex;
 }
 
@@ -60,8 +60,8 @@
 }
 
 .servicios img, .servicios-aux img {
-    width: 240px;
-    height: 240px;
+    width: 340px;
+    height: 340px;
     z-index: 1000;
 }
 
@@ -76,7 +76,7 @@
     padding: 15px;
 }
 
-.servicio-montaje {
+.servicio-2 {
     box-sizing: border-box;
     width: 271px;
     height: 271px;
@@ -87,7 +87,7 @@
     padding: 15px;
 }
 
-.servicio-mas {
+.servicio-3 {
     box-sizing: border-box;
     width: 271px;
     height: 271px;
@@ -110,7 +110,7 @@
 /*RESPONSIVE*/
 @media only screen and (max-width: 1000px) {
 
-    .lista-servicios-montaje-general, .lista-servicios-tablero-general, .lista-servicios-mas-general {
+    .lista-servicios-1-general, .lista-servicios-2-general, .lista-servicios-3-general {
         display: none;
     }
 
@@ -127,21 +127,21 @@
         margin: 0 5%;
         margin-top: 25vw;
     }
-    .container-section-servicios-tablero {
+    .container-section-servicios-1 {
         display: flex;
         /* flex-direction: column; */
         justify-content: space-around;
         /* align-items: center; */
         width: 90%;
     }
-    .container-section-servicios-montaje {
+    .container-section-servicios-2 {
         display: flex;
         /* flex-direction: column; */
         justify-content: space-around;
         /* align-items: center; */
         width: 90%;
     }
-    .container-section-servicios-mas {
+    .container-section-servicios-3 {
         display: flex;
         /* flex-direction: column; */
         justify-content: space-around;
@@ -160,7 +160,7 @@
         width: 150px;
         height: 150px;
     }
-    .card-tablero, .card-montaje, .card-mas {
+    .card-1, .card-2, .card-3 {
         display: block;
     }
 }
@@ -179,7 +179,7 @@
         margin-top: 85vw;
         padding-top: 0;
     }
-    .container-section-servicios-tablero {
+    .container-section-servicios-1 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -187,7 +187,7 @@
         width: 90%;
         z-index: 1000;
     }
-    .container-section-servicios-montaje {
+    .container-section-servicios-2 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -195,7 +195,7 @@
         width: 90%;
         z-index: 1000;
     }
-    .container-section-servicios-mas {
+    .container-section-servicios-3 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -225,15 +225,22 @@
 }
 
 
-.linea-servicios-tablero {
+.linea-servicios-1 {
     list-style: none;
     text-align: initial;
+    display: flex;
 }
-.linea-servicios-montaje {
+.linea-servicios-2 {
     list-style: none;
     text-align: initial;
+    display: flex;
 }
-.linea-servicios-mas {
+.linea-servicios-3 {
     list-style: none;
     text-align: initial;
+    display: flex;
+}
+
+.linea-servicios-1 ion-icon, .linea-servicios-2 ion-icon, .linea-servicios-3 ion-icon{
+    color: #a12c34;
 }

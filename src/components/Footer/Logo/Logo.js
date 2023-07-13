@@ -1,13 +1,13 @@
 import React from 'react'
-import ImagenLogo from '../../../imagenes/dealcargo-isologotipo.png'
+import ImagenLogo from '../../../imagenes/isologotipo2.png'
 
 const Logo = () => {
   return (
-    <div>
+    <div className='logo'>
       <img
         alt='logo Meca'
         src={ImagenLogo}
-        width='400'
+        width='70%'
       >
       </img>
     </div>

@@ -8,8 +8,8 @@
     margin: 80px 0;
 }
 
-.container-nosotros-title h4 {
-    font-size: 30px;
+.container-nosotros-title h2 {
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -21,7 +21,7 @@
     width: 70%;
     margin: 0 15%;
     background: #FFFFFF;
-    border: 1px solid #ffe81e69;
+    border: 1px solid #a12c34;
     box-shadow: -12px 15px 35px -4px #afafaf40;
     border-radius: 100px 40px 40px 40px;
 }
@@ -221,7 +221,7 @@
         width: 90%;
         margin: 0 5%;
         background: #FFFFFF;
-        border: 1px solid #ffe81e69;
+        border: 1px solid #a12c34;
         box-shadow: -12px 15px 35px -4px #afafaf40;
         border-radius: 100px 100px 40px 40px;
         height: 100%;
