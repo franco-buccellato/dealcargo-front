@@ -4,6 +4,8 @@ import SectionNosotros from '../SectionNosotros/SectionNosotros';
 import SectionClientes from '../SectionClientes/SectionClientes';
 import SectionNovedades from '../SectionNovedades/SectionNovedades';
 import Footer from '../Footer/Footer';
+import Maps from '../Maps/Maps';
+import Copyright from '../Copyright/Copyright';
 
 
 const LandingPage = () => {
@@ -15,6 +17,8 @@ const LandingPage = () => {
             <div><SectionClientes/></div>
             <div><SectionNovedades/></div>
             <div><Footer/></div>
+            <div><Maps/></div>
+            <div><Copyright/></div>
         </div>
     );
 }

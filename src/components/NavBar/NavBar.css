@@ -171,8 +171,8 @@
         width: 100%;
     }
     .container-logo-marca-responsive img {
-        height: 80px;
-        margin-left: 10px;
+/*         height: 80px;
+        margin-left: 10px; */
     }
     .container-open {
         display: flex;

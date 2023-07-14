@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
 import Title from './Title/Title'
-//import Form from './Form/Form'
 import ContactUs from './Form/ContactUs'
 import Message from './Message/Message'
 import Logo from './Logo/Logo'

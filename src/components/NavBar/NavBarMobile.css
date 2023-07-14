@@ -25,9 +25,9 @@
     justify-content: flex-start;
     width: 100%;
 }
-.container-logo-marca-responsive img {
-    height: 80px;
-    margin-left: 10px;
+.logo-pagina-responsive {
+    padding-left: 10%;
+    width: 20%;
 }
 .container-open {
     display: flex;

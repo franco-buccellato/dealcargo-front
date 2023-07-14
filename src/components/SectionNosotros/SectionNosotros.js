@@ -6,9 +6,7 @@ import LogoObjetivo from '../../imagenes/icono-objetivo.webp';
 import {getTextNosotros} from '../repositorioNosotros';
 
 function SectionNosotros() {
-
     const textosPaginaNosotros = getTextNosotros();
-
     return (
         <div className="container-section-nosotros" id='section-nosotros'>
             <div className='container-nosotros-title'>
@@ -44,15 +42,6 @@ function SectionNosotros() {
                                 <span>{textosPaginaNosotros.detalle2}</span>
                             </div>
                         </div>
-{/*                         <div className='nosotros-2-items-3'>
-                            <div className='nosotros-2-items-3-logo'>
-                                <img alt='logo-progreso' src={LogoProgreso}></img>
-                                <span><b>{textosPaginaNosotros.titulo3}</b></span>
-                            </div>
-                            <div className='nosotros-2-items-3-detalle'>
-                                <span>{textosPaginaNosotros.detalle3}</span>
-                            </div>
-                        </div> */}
                     </div>
                     <div className='nosotros-2-staff'>
                         <img alt='Foto-staff' src={FotoStaff}></img>

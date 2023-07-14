@@ -1,10 +1,8 @@
 import './SectionNovedades.css';
-/* import YoutubeEmbed from '../YoutubeEmbed/YoutubeEmbed'; */
 import LinkedinEmbebed from '../LinkedinEmbebed/LinkedinEmbebed';
 import { useEffect, useState } from 'react';
 import arrowBack from '../../imagenes/icono-arrow-back.webp';
 import arrowNext from '../../imagenes/icono-arrow-next.webp';
-/* import {getIdVideos} from '../repositorioNovedadesVideos'; */
 import {getIdPublicaciones} from '../repositorioNovedadesPublicaciones';
 
 
@@ -14,11 +12,8 @@ const SectionNovedades = () => {
 
     const [indicePublicacion, setIndicePublicacion] = useState(0);
 
-    useEffect(
-        () => {
-        },
-        [indicePublicacion]
-    )
+    useEffect(() => {},[indicePublicacion]);
+
     const prevPublicacion = () => {
         indicePublicacion >= 1 ? setIndicePublicacion(indicePublicacion - 1) : console.log('Primer publicacion.');
     }

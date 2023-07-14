@@ -1,0 +1,34 @@
+.copyright-container {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #414141;
+    color: #fff;
+}
+
+.container-colum-copy-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.container-colum-copy-1 a img {
+    padding-left: 47.5%;
+    width: 5%;
+}
+
+.container-colum-copy-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.container-colum-copy-2 a {
+    color: #5cbcdb;
+}

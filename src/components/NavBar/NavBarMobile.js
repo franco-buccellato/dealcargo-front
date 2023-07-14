@@ -1,8 +1,6 @@
 import './NavBarMobile.css';
 import {Link} from 'react-router-dom';
-import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
-import argentina from '../../imagenes/argentina.png';
-import chile from '../../imagenes/chile.png';
+import logoTexto from '../../imagenes/dealcargo-isologotipo - copia.png';
 
 function NavBarMobile({estaEnSupPage}) {
     function DesplegarMenu() {
@@ -33,7 +31,7 @@ function NavBarMobile({estaEnSupPage}) {
                         <div className='navbar-responsive-fijo'>
                             <div className='container-logo-marca-responsive' id='logo-nav-bar'>
                                 <Link to = {'/'}>
-                                    <img className='logo-pagina-responsive' alt='Logo' src={logoMecaTexto}></img>
+                                    <img className='logo-pagina-responsive' alt='Logo' src={logoTexto}></img>
                                 </Link>
                             </div>
                             <div id='open' className='container-open' onClick={() => DesplegarMenu()}>
@@ -88,7 +86,7 @@ function NavBarMobile({estaEnSupPage}) {
                     <div className='navbar-responsive-fijo'>
                         <div className='container-logo-marca-responsive' id='logo-nav-bar'>
                             <a href='#top-landig-page'>
-                                <img className='logo-pagina-responsive' alt='Logo' src={logoMecaTexto}></img>
+                                <img className='logo-pagina-responsive' alt='Logo' src={logoTexto}></img>
                             </a>
                         </div>
                         <div id='open' className='container-open' onClick={() => DesplegarMenu()}>
