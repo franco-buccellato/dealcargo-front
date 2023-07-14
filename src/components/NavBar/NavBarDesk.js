@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom';
 /* import logoIsologo from '../../imagenes/meca-logo-isologo-small-min.webp'; */
 import isologo from '../../imagenes/isologotipo1.png';
 import isotipo from '../../imagenes/isotipo.png';
-import argentina from '../../imagenes/argentina.png';
-import chile from '../../imagenes/chile.png';
 
 function NavBarDesk({estaEnSupPage}) {
 
@@ -13,12 +11,18 @@ function NavBarDesk({estaEnSupPage}) {
             var currentScrollPos = window.pageYOffset;
             if (150 > currentScrollPos) {
                 document.getElementById('navBar').style.background = '';
-                document.getElementById('navBar').style.height = '135px';
+                document.getElementById('navBar').style.height = '105px';
                 document.getElementById('navBar').style.paddingBottom = '0';
                 document.getElementById('navBar').style.borderRadius = '0'
                 document.getElementById('logo-navBar').src = isologo;
                 document.getElementById('logo-navBar').style.marginBottom = '0';
                 document.getElementById('logo-navBar').style.width = '70%';
+                document.getElementById('title-productos').style.marginBottom = '0px';
+                document.getElementById('title-clientes').style.marginBottom = '0px';
+                document.getElementById('title-nosotros').style.marginBottom = '0px';
+                document.getElementById('title-novedades').style.marginBottom = '0px';
+                document.getElementById('title-trabaja-con-nosotros').style.marginBottom = '0px';
+                /* document.getElementById('navbar-style').style.paddingBottom = "1%"; */
             } else {
                 document.getElementById('navBar').style.background = '#ffffffea';
                 document.getElementById('navBar').style.height = '80px';
@@ -27,6 +31,11 @@ function NavBarDesk({estaEnSupPage}) {
                 document.getElementById('navBar').style.borderBottomRightRadius = '30px';
                 document.getElementById('logo-navBar').src = isotipo;
                 document.getElementById('logo-navBar').style.width = '50%';
+                document.getElementById('title-productos').style.marginBottom = '-10px';
+                document.getElementById('title-clientes').style.marginBottom = '-10px';
+                document.getElementById('title-nosotros').style.marginBottom = '-10px';
+                document.getElementById('title-novedades').style.marginBottom = '-10px';
+                document.getElementById('title-trabaja-con-nosotros').style.marginBottom = '-10px';
                 /* document.getElementById('logo-navBar').style.marginBottom = ''; */
                 /* document.getElementById('logo-navBar').style.height = '35px'; */
             }
@@ -70,16 +79,6 @@ function NavBarDesk({estaEnSupPage}) {
                                 <Link to = {'/'}>
                                     <h2 className='list-text' id='button-trabaja'>Contáctanos</h2>
                                 </Link>
-                            </li>
-                            <li className="list-bandera-1" id='title-trabaja-con-nosotros' >
-                                <a href='/'>
-                                    <img className='bandera-navBar' alt='Bandera Argentina' src={argentina}></img>
-                                </a>
-                            </li>
-                            <li className="list-bandera-2" id='title-trabaja-con-nosotros' >
-                                <a href='/'>
-                                    <img className='bandera-navBar' alt='Bandera Chile' src={chile}></img>
-                                </a>
                             </li>
                         </ul>
                     </nav>

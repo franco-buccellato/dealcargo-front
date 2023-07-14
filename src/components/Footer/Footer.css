@@ -4,7 +4,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    padding-top: 100px;
 }
 
 .container-footer {
@@ -77,7 +77,6 @@ footer {
 }
 
 .titleFooter {
-    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -174,7 +173,6 @@ input[type="submit"] {
     background: #a12c34;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;

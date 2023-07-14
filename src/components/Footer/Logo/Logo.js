@@ -1,5 +1,5 @@
 import React from 'react'
-import ImagenLogo from '../../../imagenes/isologotipo2.png'
+import ImagenLogo from '../../../imagenes/isotipo.png'
 
 const Logo = () => {
   return (
