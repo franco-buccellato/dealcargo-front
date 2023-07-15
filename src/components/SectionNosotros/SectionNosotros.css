@@ -23,7 +23,7 @@
     background: #FFFFFF;
     border: 1px solid #a12c34;
     box-shadow: -12px 15px 35px -4px #afafaf40;
-    border-radius: 100px 40px 40px 40px;
+    border-radius: 40px;
 }
 
 .container-nosotros-1 {
@@ -31,10 +31,10 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     /* height: 300px; */
-    margin-top: -5%;
-    margin-left: -5%;
+    /* margin-top: -5%;
+    margin-left: -5%; */
 }
 
 .nosotros-1-duenios {
@@ -73,7 +73,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 .nosotros-2-items {
@@ -81,15 +81,16 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 60%;
+    width: 50%;
 }
 
 .nosotros-2-items-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    padding: 10px 0;
+    width: 90%;
+    padding-right: 10%;
+    /* padding: 10px 0; */
 }
 
 .nosotros-2-items-1-logo {
@@ -97,16 +98,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
 }
 
 .nosotros-2-items-1-logo img {
-    height: 40%;
+    height: 30%;
 }
 
 .nosotros-2-items-1-detalle {
     width: 70%;
-    padding-right: 15%;
+    /* padding-right: 15%; */
 }
 
 .nosotros-2-items-1-detalle span {
@@ -117,8 +118,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    padding: 10px 0;
+    width: 90%;
+    padding-right: 10%;
+    /* padding: 10px 0; */
 }
 
 .nosotros-2-items-2-logo {
@@ -126,7 +128,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
 }
 
 .nosotros-2-items-2-logo img {
@@ -135,7 +137,7 @@
 
 .nosotros-2-items-2-detalle {
     width: 70%;
-    padding-right: 15%;
+    /* padding-right: 15%; */
 }
 
 .nosotros-2-items-2-detalle span {
@@ -182,7 +184,7 @@
     width: 100%;
     height: 100%;
     border-radius: 40px;
-    margin-right: 20%;
+    /* margin-right: 20%; */
 }
 
 .container-nosotros-conocenos {

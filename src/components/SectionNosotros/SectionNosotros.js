@@ -1,6 +1,6 @@
 import './SectionNosotros.css'; 
-import FotoRepresentantes from '../../imagenes/representantes.png';
-import FotoStaff from '../../imagenes/foto-meca-aniversario.jpg';
+import FotoRepresentantes from '../../imagenes/DEALCARGO.png';
+import FotoStaff from '../../imagenes/DEALCARGO.png';
 import LogoStaff from '../../imagenes/icono-staff.webp';
 import LogoObjetivo from '../../imagenes/icono-objetivo.webp';
 import {getTextNosotros} from '../repositorioNosotros';
