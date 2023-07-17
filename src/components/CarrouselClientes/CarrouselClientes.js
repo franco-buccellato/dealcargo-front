@@ -6,9 +6,10 @@ import cliente4 from '../../imagenes/Logo-Fasten.png'
 import cliente5 from '../../imagenes/Logo-GrupoHydralpng.png'
 import cliente6 from '../../imagenes/Logo-Machvision.png'
 import cliente7 from '../../imagenes/Logo-Powercom.png'
+import cliente8 from '../../imagenes/Logo-Gimnasia.png'
 
 function CarrouselClientes() {
-    const listaCliente = [cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7, cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7];
+    const listaCliente = [cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7, cliente8, cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7, cliente8];
 
     return (
         <div  className="slider">
