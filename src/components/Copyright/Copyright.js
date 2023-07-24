@@ -1,6 +1,6 @@
 import React from 'react'
 import './Copyright.css'
-import iconoMineris from '../../imagenes/logotipo-mineris.png';
+import iconoMineris from '../../imagenes/logotipo-mineris.png'
 
 const Copyright = () => {
     return (

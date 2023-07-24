@@ -1,5 +1,5 @@
 /* 
-#a12c34
+#933b3e
 
 
 */
@@ -71,11 +71,11 @@
     padding: 0;
     margin: 0;
     font-weight: bold;
-    border: 3px solid #a12c34;
+    border: 3px solid #933b3e;
     padding: 10px;
     margin-bottom: -10px;
     border-radius: 5px;
-    background-color: #a12c34;
+    background-color: #933b3e;
 }
 
 .list a {
@@ -83,7 +83,7 @@
 }
 
 .list a:hover {
-    color: #a12c34;
+    color: #933b3e;
 }
 
 .list-trabaja-con-nosotros a {
@@ -101,7 +101,7 @@
 .list-trabaja-con-nosotros h2 {
     list-style: none;
     text-decoration: none;
-    border: 3px solid #a12c34;
+    border: 3px solid #933b3e;
     padding: 10px;
     border-radius: 5px;
 }

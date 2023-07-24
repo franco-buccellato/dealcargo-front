@@ -21,7 +21,7 @@
     width: 70%;
     margin: 0 15%;
     background: #FFFFFF;
-    border: 1px solid #a12c34;
+    border: 1px solid #933b3e;
     box-shadow: -12px 15px 35px -4px #afafaf40;
     border-radius: 40px;
 }
@@ -201,7 +201,7 @@
     margin-top: 30px;
     width: 150px;
     height: 50px;
-    background: #a12c34;
+    background: #933b3e;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
@@ -223,7 +223,7 @@
         width: 90%;
         margin: 0 5%;
         background: #FFFFFF;
-        border: 1px solid #a12c34;
+        border: 1px solid #933b3e;
         box-shadow: -12px 15px 35px -4px #afafaf40;
         border-radius: 100px 100px 40px 40px;
         height: 100%;
