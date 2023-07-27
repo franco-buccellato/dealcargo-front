@@ -1,3 +1,8 @@
+html { 
+  scroll-behavior: smooth;
+}
+
+
 body {
   margin: 0;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
@@ -10,4 +15,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root {
+  --bordo-1: #A12C34;
+  --negro-1: #2D2D2D;
+  --gris-1: #414141;
+  --gris-1-1: #414141b0;
+  --gris-2: #8b8b8b;
+  --gris-2-1: #8b8b8bb0;
+  --gris-2-2: #8b8b8b00;
+  --gris-3: #d3d3d3;
+  --gris-4: #f0ecec;
+  --blanco: #ffffff;
+  --negro: #000000;
+
 }

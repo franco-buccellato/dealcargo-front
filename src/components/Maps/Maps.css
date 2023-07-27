@@ -29,7 +29,7 @@
 }
 
 .maps ion-icon {
-    background: #933b3e;
+    background: var(--bordo-1);
     border-radius: 50%;
     padding: 15px;
     margin-bottom: -20px;

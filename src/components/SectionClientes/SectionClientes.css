@@ -204,7 +204,7 @@
 }
 
 .container-experiencias-comentarios ion-icon {
-    color: #933b3e;
+    color: var(--bordo-1);
 }
 
 @media only screen and (max-width: 1200px) {

@@ -80,7 +80,7 @@ ion-icon {
     font-size: 10px;
 }
 .list-responsive:hover {
-    background-color: #933b3e;
+    background-color: var(--bordo-1);
 }
 .list-text-responsive {
     display: flex;

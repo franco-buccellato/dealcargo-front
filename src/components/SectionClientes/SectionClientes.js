@@ -92,6 +92,24 @@ function SectionClientes() {
                                 </div>
                             </div>
                         </div>
+                        <div className='container-experiencias-comentario-linea-4'>
+                            <div className='container-experiencias-comentario'>
+                                <div className='experiencias-comentario-puntaje'>
+                                    <ion-icon name="star" size='large'></ion-icon>
+                                    <ion-icon name="star" size='large'></ion-icon>
+                                    <ion-icon name="star" size='large'></ion-icon>
+                                    <ion-icon name="star" size='large'></ion-icon>
+                                    <ion-icon name="star" size='large'></ion-icon>
+                                </div>
+                                <div className='experiencias-comentario-comentario'>
+                                    <span>{textosPaginaClientes.comentario4}</span>
+                                </div>
+                                <div className='experiencias-comentario-persona'>
+                                    <ion-icon name="person-circle" size='large'></ion-icon>
+                                    <span>{textosPaginaClientes.persona4}</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

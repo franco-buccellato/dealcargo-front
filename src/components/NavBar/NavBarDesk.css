@@ -1,5 +1,5 @@
 /* 
-#933b3e
+var(--bordo-1)
 
 
 */
@@ -71,11 +71,11 @@
     padding: 0;
     margin: 0;
     font-weight: bold;
-    border: 3px solid #933b3e;
+    border: 3px solid var(--bordo-1);
     padding: 10px;
     margin-bottom: -10px;
     border-radius: 5px;
-    background-color: #933b3e;
+    background-color: var(--bordo-1);
 }
 
 .list a {
@@ -83,7 +83,7 @@
 }
 
 .list a:hover {
-    color: #933b3e;
+    color: var(--bordo-1);
 }
 
 .list-trabaja-con-nosotros a {
@@ -91,7 +91,7 @@
 }
 
 .list-trabaja-con-nosotros a:hover {
-    color: #181818;
+    color: #fff;
 }
 
 .list-trabaja-con-nosotros :hover {
@@ -101,7 +101,7 @@
 .list-trabaja-con-nosotros h2 {
     list-style: none;
     text-decoration: none;
-    border: 3px solid #933b3e;
+    border: 3px solid var(--bordo-1);
     padding: 10px;
     border-radius: 5px;
 }

@@ -51,14 +51,14 @@ function NavBarMobile({estaEnSupPage}) {
                                     <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Servicios</h2>
                                 </Link>
                             </li>
-                            <li className="list-responsive" id='title-clientes' >
-                                <Link to = {'/'}>
-                                    <h2 className='list-text-responsive'><ion-icon name="file-tray-full-outline"></ion-icon>Clientes</h2>
-                                </Link>
-                            </li>
                             <li className="list-responsive" id='title-nosotros' >
                                 <Link to = {'/'}>
                                     <h2 className='list-text-responsive'><ion-icon name="people-outline"></ion-icon>Nosotros</h2>
+                                </Link>
+                            </li>
+                            <li className="list-responsive" id='title-clientes' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text-responsive'><ion-icon name="file-tray-full-outline"></ion-icon>Clientes</h2>
                                 </Link>
                             </li>
                             <li className="list-responsive" id='title-novedades' >
@@ -106,14 +106,14 @@ function NavBarMobile({estaEnSupPage}) {
                                 <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Servicios</h2>
                             </a>
                         </li>
-                        <li className="list-responsive" id='title-clientes' >
-                            <a href='#section-clientes'>
-                                <h2 className='list-text-responsive'><ion-icon name="file-tray-full-outline"></ion-icon>Clientes</h2>
-                            </a>
-                        </li>
                         <li className="list-responsive" id='title-nosotros' >
                             <a href='#section-nosotros-id'>
                                 <h2 className='list-text-responsive'><ion-icon name="people-outline"></ion-icon>Nosotros</h2>
+                            </a>
+                        </li>
+                        <li className="list-responsive" id='title-clientes' >
+                            <a href='#section-clientes'>
+                                <h2 className='list-text-responsive'><ion-icon name="file-tray-full-outline"></ion-icon>Clientes</h2>
                             </a>
                         </li>
                         <li className="list-responsive" id='title-novedades' >

@@ -60,14 +60,14 @@ function NavBarDesk({estaEnSupPage}) {
                                     <h2 className='list-text'>Servicios</h2>
                                 </Link>
                             </li>
-                            <li className="list" id='title-clientes' >
-                                <Link to = {'/'}>
-                                    <h2 className='list-text'>Clientes</h2>
-                                </Link>
-                            </li>
                             <li className="list" id='title-nosotros' >
                                 <Link to = {'/'}>
                                     <h2 className='list-text'>Nosotros</h2>
+                                </Link>
+                            </li>
+                            <li className="list" id='title-clientes' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text'>Clientes</h2>
                                 </Link>
                             </li>
                             <li className="list" id='title-novedades' >
@@ -102,14 +102,14 @@ function NavBarDesk({estaEnSupPage}) {
                                 <h2 className='list-text'>Servicios</h2>
                             </a>
                         </li>
-                        <li className="list" id='title-clientes' >
-                            <a href='#section-clientes'>
-                                <h2 className='list-text'>Clientes</h2>
-                            </a>
-                        </li>
                         <li className="list" id='title-nosotros' >
                             <a href='#section-nosotros'>
                                 <h2 className='list-text'>Nosotros</h2>
+                            </a>
+                        </li>
+                        <li className="list" id='title-clientes' >
+                            <a href='#section-clientes'>
+                                <h2 className='list-text'>Clientes</h2>
                             </a>
                         </li>
                         <li className="list" id='title-novedades' >
